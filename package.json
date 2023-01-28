@@ -1,0 +1,13 @@
+{
+  "name": "frontend-tools-configs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Alexey Svetlichniy <dnebl00@gmail.com>",
+  "license": "MIT",
+  "private": "true",
+  "devDependencies": {
+    "cspell": "^6.19.2",
+    "prettier": "^2.8.3"
+  }
+}
