@@ -20,6 +20,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "",
-  "homepage": ""
+  "repository": "https://github.com/fruktorum/frontend-tools-configs",
+  "homepage": "https://github.com/fruktorum/frontend-tools-configs/tree/main/packages/prettier-config"
 }
