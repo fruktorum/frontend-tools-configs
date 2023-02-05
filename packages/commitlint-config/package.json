@@ -21,8 +21,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "",
-  "homepage": "",
+  "repository": "https://github.com/fruktorum/frontend-tools-configs",
+  "homepage": "https://github.com/fruktorum/frontend-tools-configs/tree/main/packages/commitlint-config",
   "dependencies": {
     "@commitlint/config-conventional": "^17.4.2"
   }
