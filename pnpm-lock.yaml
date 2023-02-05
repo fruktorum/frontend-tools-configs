@@ -12,7 +12,7 @@ importers:
     devDependencies:
       '@commitlint/cli': 17.4.2
       '@fruktorum/commitlint-config': link:packages/commitlint-config
-      '@fruktorum/prettier-config': link:packages/prettier-config-pug
+      '@fruktorum/prettier-config': link:packages/prettier-config
       cspell: 6.19.2
       prettier: 2.8.3
 
@@ -30,6 +30,14 @@ importers:
       '@prettier/plugin-pug': ^2.4.1
     dependencies:
       '@prettier/plugin-pug': 2.4.1
+
+  packages/prettier-config-vue:
+    specifiers:
+      '@fruktorum/prettier-config': workspace:^1.0.0
+      '@fruktorum/prettier-config-pug': workspace:^1.0.0
+    devDependencies:
+      '@fruktorum/prettier-config': link:../prettier-config
+      '@fruktorum/prettier-config-pug': link:../prettier-config-pug
 
 packages:
 
