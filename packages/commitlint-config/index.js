@@ -68,22 +68,10 @@ const commitTypes = {
         emoji: '⏪️',
     },
 
-    wip: {
-        description: '',
-        title: 'Work in progress',
-        emoji: '🚧',
-    },
-
     i18n: {
         description: '',
         title: 'Internationalization and localization',
         emoji: '🌐',
-    },
-
-    dx: {
-        description: '',
-        title: 'Developer experience',
-        emoji: '🧑‍💻',
     },
 
     init: {
