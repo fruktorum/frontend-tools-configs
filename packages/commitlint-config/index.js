@@ -14,7 +14,7 @@ const commitTypes = {
     docs: {
         description: 'Documentation only changes',
         title: 'Documentation',
-        emoji: '📚',
+        emoji: '📝',
     },
 
     style: {
@@ -39,7 +39,7 @@ const commitTypes = {
     test: {
         description: 'Adding missing tests or correcting existing tests',
         title: 'Tests',
-        emoji: '🚨',
+        emoji: '🧪',
     },
 
     build: {
@@ -53,7 +53,7 @@ const commitTypes = {
         description:
             'Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)',
         title: 'Continuous Integrations',
-        emoji: '⚙️',
+        emoji: '👷',
     },
 
     chore: {
