@@ -1,12 +1,12 @@
 module.exports = {
-    printWidth: 120,
+    printWidth: 100,
     tabWidth: 4,
     useTabs: false,
-    semi: true,
+    semi: false,
     singleQuote: true,
     quoteProps: 'as-needed',
     jsxSingleQuote: false,
-    trailingComma: 'es5',
+    trailingComma: 'none',
     bracketSpacing: true,
     bracketSameLine: false,
     arrowParens: 'always',
@@ -23,8 +23,8 @@ module.exports = {
         {
             files: ['*.json', '*.json5', 'webmanifest', 'yml', 'yaml'],
             options: {
-                tabWidth: 2,
-            },
-        },
-    ],
-};
+                tabWidth: 2
+            }
+        }
+    ]
+}

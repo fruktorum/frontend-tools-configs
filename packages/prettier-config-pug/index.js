@@ -6,6 +6,6 @@ module.exports = {
     pugSortAttributes: 'as-is',
     pugSingleFileComponentIndentation: false,
     pugSingleQuote: false,
-    pugPrintWidth: 120,
-    pugBracketSameLine: false,
-};
+    pugPrintWidth: 100,
+    pugBracketSameLine: false
+}
