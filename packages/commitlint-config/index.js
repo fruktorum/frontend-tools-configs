@@ -2,120 +2,120 @@ const commitTypes = {
     feat: {
         description: 'A new feature',
         title: 'Features',
-        emoji: '✨',
+        emoji: '✨'
     },
 
     fix: {
         description: 'A bug fix',
         title: 'Bug Fixes',
-        emoji: '🐛',
+        emoji: '🐛'
     },
 
     docs: {
         description: 'Documentation only changes',
         title: 'Documentation',
-        emoji: '📝',
+        emoji: '📝'
     },
 
     style: {
         description:
             'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)',
         title: 'Styles',
-        emoji: '🎨',
+        emoji: '🎨'
     },
 
     refactor: {
         description: 'A code change that neither fixes a bug nor adds a feature',
         title: 'Code Refactoring',
-        emoji: '♻️',
+        emoji: '♻️'
     },
 
     perf: {
         description: 'A code change that improves performance',
         title: 'Performance Improvements',
-        emoji: '⚡️',
+        emoji: '⚡️'
     },
 
     test: {
         description: 'Adding missing tests or correcting existing tests',
         title: 'Tests',
-        emoji: '🧪',
+        emoji: '🧪'
     },
 
     build: {
         description:
             'Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)',
         title: 'Builds',
-        emoji: '🛠',
+        emoji: '🛠'
     },
 
     ci: {
         description:
             'Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)',
         title: 'Continuous Integrations',
-        emoji: '👷',
+        emoji: '👷'
     },
 
     chore: {
         description: "Other changes that don't modify src or test files",
         title: 'Chores',
-        emoji: '♻️',
+        emoji: '♻️'
     },
 
     revert: {
         description: 'Reverts a previous commit',
         title: 'Reverts',
-        emoji: '⏪️',
+        emoji: '⏪️'
     },
 
     i18n: {
         description: '',
         title: 'Internationalization and localization',
-        emoji: '🌐',
+        emoji: '🌐'
     },
 
     init: {
         description: '',
         title: 'Begin a project',
-        emoji: '🎉',
+        emoji: '🎉'
     },
 
     typos: {
         description: '',
         title: 'Fix typos',
-        emoji: '✏️',
+        emoji: '✏️'
     },
 
     merge: {
         description: '',
         title: 'Merge branches',
-        emoji: '🔀',
+        emoji: '🔀'
     },
 
     security: {
         description: 'Fix security issues',
         title: 'Security',
-        emoji: '🔒️',
-    },
-};
+        emoji: '🔒️'
+    }
+}
 
 module.exports = {
     extends: ['@commitlint/config-conventional'],
 
     rules: {
-        'type-enum': [2, 'always', Object.keys(commitTypes)],
+        'type-enum': [2, 'always', Object.keys(commitTypes)]
     },
 
     prompt: {
         settings: {
-            scopeEnumSeparator: ',',
+            scopeEnumSeparator: ','
         },
 
         questions: {
             type: {
                 description: "Select the type of change that you're committing:",
-                enum: commitTypes,
-            },
-        },
-    },
-};
+                enum: commitTypes
+            }
+        }
+    }
+}

@@ -24,7 +24,7 @@
   "repository": "https://github.com/fruktorum/frontend-tools-configs",
   "homepage": "https://github.com/fruktorum/frontend-tools-configs/tree/main/packages/prettier-config-vue",
   "dependencies": {
-    "@fruktorum/prettier-config": "workspace:^1.0.0",
-    "@fruktorum/prettier-config-pug": "workspace:^1.0.0"
+    "@fruktorum/prettier-config": "workspace:^2.0.0",
+    "@fruktorum/prettier-config-pug": "workspace:^2.0.0"
   }
 }
