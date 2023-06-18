@@ -30,6 +30,21 @@ importers:
         specifier: ^17.4.2
         version: 17.4.2
 
+  packages/cspell-backend-config:
+    dependencies:
+      '@cspell/dict-aws':
+        specifier: ^3.0.0
+        version: 3.0.0
+      '@cspell/dict-k8s':
+        specifier: ^1.0.1
+        version: 1.0.1
+      '@cspell/dict-redis':
+        specifier: ^1.0.1
+        version: 1.0.1
+      '@cspell/dict-sql':
+        specifier: ^2.1.0
+        version: 2.1.0
+
   packages/cspell-default-config:
     dependencies:
       '@cspell/dict-companies':
@@ -360,7 +375,7 @@ packages:
       '@cspell/dict-html': 4.0.3
       '@cspell/dict-html-symbol-entities': 4.0.0
       '@cspell/dict-java': 5.0.4
-      '@cspell/dict-k8s': 1.0.0
+      '@cspell/dict-k8s': 1.0.1
       '@cspell/dict-latex': 3.1.0
       '@cspell/dict-lorem-ipsum': 3.0.0
       '@cspell/dict-lua': 4.0.0
@@ -375,7 +390,7 @@ packages:
       '@cspell/dict-rust': 4.0.0
       '@cspell/dict-scala': 4.0.0
       '@cspell/dict-software-terms': 3.1.15
-      '@cspell/dict-sql': 2.0.1
+      '@cspell/dict-sql': 2.1.0
       '@cspell/dict-svelte': 1.0.2
       '@cspell/dict-swift': 2.0.1
       '@cspell/dict-typescript': 3.1.1
@@ -403,7 +418,6 @@ packages:
 
   /@cspell/dict-aws@3.0.0:
     resolution: {integrity: sha512-O1W6nd5y3Z00AMXQMzfiYrIJ1sTd9fB1oLr+xf/UD7b3xeHeMeYE2OtcWbt9uyeHim4tk+vkSTcmYEBKJgS5bQ==}
-    dev: true
 
   /@cspell/dict-bash@4.1.1:
     resolution: {integrity: sha512-8czAa/Mh96wu2xr0RXQEGMTBUGkTvYn/Pb0o+gqOO1YW+poXGQc3gx0YPqILDryP/KCERrNvkWUJz3iGbvwC2A==}
@@ -495,9 +509,8 @@ packages:
     resolution: {integrity: sha512-43VrLOLcBxavv6eyL4BpsnHrhVOgyYYeJqQRJG5XKObcpWy3+Lpadj58CfTVOr7M/Je3pUpd4tvsUhf/lWXMVA==}
     dev: true
 
-  /@cspell/dict-k8s@1.0.0:
-    resolution: {integrity: sha512-XqIql+nd2DiuPuL+qPc24bN/L1mZY75kAYcuMBMW5iYgBoivkiVOg7br/aofX3ApajvHDln6tNkPZhmhsOg6Ww==}
-    dev: true
+  /@cspell/dict-k8s@1.0.1:
+    resolution: {integrity: sha512-gc5y4Nm3hVdMZNBZfU2M1AsAmObZsRWjCUk01NFPfGhFBXyVne41T7E62rpnzu5330FV/6b/TnFcPgRmak9lLw==}
 
   /@cspell/dict-latex@3.1.0:
     resolution: {integrity: sha512-XD5S3FY0DrYiun2vm/KKOkeaD30LXp9v5EzVTVQvmxqQrQh0HvOT3TFD7lgKbyzZaG7E+l3wS94uwwm80cOmuw==}
@@ -535,6 +548,10 @@ packages:
     resolution: {integrity: sha512-KCmKaeYMLm2Ip79mlYPc8p+B2uzwBp4KMkzeLd5E6jUlCL93Y5Nvq68wV5fRLDRTf7N1LvofkVFWfDcednFOgA==}
     dev: true
 
+  /@cspell/dict-redis@1.0.1:
+    resolution: {integrity: sha512-f6xh2izq16YvkMqeuhMFhsJOk6wYQuqvpHqEiztsRFFneqRs7xefHAebqhcrKlKT329Jv+lJJJ5XLUV7xlQ2sQ==}
+    dev: false
+
   /@cspell/dict-ruby@4.0.1:
     resolution: {integrity: sha512-p9nLDsffPadPLLwdLQj4Gk0IsZ64iCSxnSCaeFXslFiD17FtJVh1YMHP7KE9M73u22Hprq+a1Yw25/xp6Tkt3g==}
     dev: true
@@ -554,9 +571,8 @@ packages:
   /@cspell/dict-software-terms@3.1.15:
     resolution: {integrity: sha512-EHnLozXWeJr3mUzLz8uH58EvnQTPZ7Y4wHDDxbQTF+QIbu41mLbPjgN/fU1pHAEsV4BzDc08E0EzAZlHxJfEKQ==}
 
-  /@cspell/dict-sql@2.0.1:
-    resolution: {integrity: sha512-7fvVcvy751cl31KMD5j04yMGq2UKj018/1hx3FNtdUI9UuUTMvhBrTAqHEEemR3ZeIC9i/5p5SQjwQ13bn04qw==}
-    dev: true
+  /@cspell/dict-sql@2.1.0:
+    resolution: {integrity: sha512-Bb+TNWUrTNNABO0bmfcYXiTlSt0RD6sB2MIY+rNlaMyIwug43jUjeYmkLz2tPkn3+2uvySeFEOMVYhMVfcuDKg==}
 
   /@cspell/dict-svelte@1.0.2:
     resolution: {integrity: sha512-rPJmnn/GsDs0btNvrRBciOhngKV98yZ9SHmg8qI6HLS8hZKvcXc0LMsf9LLuMK1TmS2+WQFAan6qeqg6bBxL2Q==}
