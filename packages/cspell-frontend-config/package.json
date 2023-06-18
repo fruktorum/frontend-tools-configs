@@ -1,0 +1,35 @@
+{
+  "name": "@fruktorum/cspell-frontend-config",
+  "version": "1.0.0",
+  "description": "Cspell config for Fruktorum company projects",
+  "keywords": [
+    "fruktorum",
+    "cspell",
+    "config",
+    "styleguide"
+  ],
+  "author": "Alexey Svetlichniy <dnebl00@gmail.com>",
+  "contributors": [
+    {
+      "name": "Alexey Svetlichniy",
+      "url": "https://github.com/Dnebl"
+    }
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/fruktorum/frontend-tools-configs",
+  "homepage": "https://github.com/fruktorum/frontend-tools-configs/tree/main/packages/cspell-frontend-config",
+  "dependencies": {
+    "@cspell/dict-css": "^4.0.6",
+    "@cspell/dict-fonts": "^3.0.2",
+    "@cspell/dict-html": "^4.0.3",
+    "@cspell/dict-html-symbol-entities": "^4.0.0",
+    "@cspell/dict-node": "^4.0.2",
+    "@cspell/dict-npm": "^5.0.5",
+    "@cspell/dict-svelte": "^1.0.2",
+    "@cspell/dict-typescript": "^3.1.1"
+  }
+}
