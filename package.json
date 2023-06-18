@@ -7,12 +7,12 @@
   "license": "MIT",
   "private": "true",
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
+    "@commitlint/cli": "^17.6.5",
     "@fruktorum/commitlint-config": "^1.0.0",
     "@fruktorum/cspell-default-config": "workspace:^",
     "@fruktorum/cspell-frontend-config": "workspace:^",
     "@fruktorum/prettier-config": "workspace:^2.0.0",
-    "cspell": "^6.19.2",
-    "prettier": "^2.8.3"
+    "cspell": "^6.31.1",
+    "prettier": "^2.8.8"
   }
 }
