@@ -1,0 +1,4 @@
+Alexey
+Svetlichniy
+commitlint
+styleguide

@@ -14,6 +14,12 @@ importers:
       '@fruktorum/commitlint-config':
         specifier: ^1.0.0
         version: link:packages/commitlint-config
+      '@fruktorum/cspell-default-config':
+        specifier: workspace:^
+        version: link:packages/cspell-default-config
+      '@fruktorum/cspell-frontend-config':
+        specifier: workspace:^
+        version: link:packages/cspell-frontend-config
       '@fruktorum/prettier-config':
         specifier: workspace:^2.0.0
         version: link:packages/prettier-config
