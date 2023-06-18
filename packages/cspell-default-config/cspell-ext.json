@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+
+  "dictionaries": [
+    "bash",
+    "companies",
+    "cryptocurrencies",
+    "data-science",
+    "docker",
+    "en_us",
+    "filetypes",
+    "fullstack",
+    "gaming-terms",
+    "lorem-ipsum",
+    "networking-terms",
+    "public-licenses",
+    "shellscript",
+    "softwareTerms",
+    "web-services",
+    "fruktorum-default"
+  ],
+
+  "dictionaryDefinitions": [
+    {
+      "name": "fruktorum-default",
+      "path": "./dict.txt"
+    }
+  ],
+
+  "import": [
+    "@cspell/dict-docker/cspell-ext.json",
+    "@cspell/dict-shell/cspell-ext.json",
+    "@cspell/dict-companies/cspell-ext.json",
+    "@cspell/dict-cryptocurrencies/cspell-ext.json",
+    "@cspell/dict-fullstack/cspell-ext.json",
+    "@cspell/dict-software-terms/cspell-ext.json",
+    "@cspell/dict-public-licenses/cspell-ext.json",
+    "@cspell/dict-lorem-ipsum/cspell-ext.json",
+    "@cspell/dict-gaming-terms/cspell-ext.json",
+    "@cspell/dict-filetypes/cspell-ext.json",
+    "@cspell/dict-data-science/cspell-ext.json",
+    "@cspell/dict-en-common-misspellings/cspell-ext.json"
+  ]
+}
