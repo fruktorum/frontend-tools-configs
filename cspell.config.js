@@ -5,15 +5,15 @@ module.exports = {
     useGitignore: true,
     ignorePaths: ['pnpm-lock.yaml'],
 
-    // dictionaryDefinitions: [
-    //     {
-    //         name: 'local',
-    //         path: './.cspell/dict.txt',
-    //         addWords: true
-    //     }
-    // ],
+    dictionaryDefinitions: [
+        {
+            name: 'local',
+            path: './.cspell/dict.txt',
+            addWords: true
+        }
+    ],
 
-    // dictionaries: ['local'],
+    dictionaries: ['local'],
 
     import: [
         '@fruktorum/cspell-default-config/cspell-ext.json',
