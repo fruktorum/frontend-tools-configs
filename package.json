@@ -6,6 +6,9 @@
   "author": "Alexey Svetlichniy <dnebl00@gmail.com>",
   "license": "MIT",
   "private": "true",
+  "scripts": {
+    "postinstall": "lefthook install"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@fruktorum/commitlint-config": "^1.0.0",
@@ -13,6 +16,7 @@
     "@fruktorum/cspell-frontend-config": "workspace:^",
     "@fruktorum/prettier-config": "workspace:^2.0.0",
     "cspell": "^6.31.1",
+    "lefthook": "^1.4.3",
     "prettier": "^2.8.8"
   }
 }
