@@ -2,3 +2,4 @@ Alexey
 Svetlichniy
 commitlint
 styleguide
+lefthook
