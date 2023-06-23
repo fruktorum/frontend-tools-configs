@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
-    "@fruktorum/commitlint-config": "^1.0.0",
+    "@fruktorum/commitlint-config": "workspace:*",
     "@fruktorum/cspell-default-config": "workspace:^",
     "@fruktorum/cspell-frontend-config": "workspace:^",
     "@fruktorum/prettier-config": "workspace:^2.0.0",
